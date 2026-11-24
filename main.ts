@@ -25,6 +25,15 @@
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
+// Why this line, and not the obvious ones:
+//   - The meeting that could have been an email is the first joke
+//     every office worker reaches for, so the judge has heard it
+//     a hundred times before breakfast.
+//   - The reply-all gag is already doing the rounds, and a judge
+//     that meets the same punchline twice laughs at it once at most.
+//   - The printer is the third thing on the list and the first one
+//     nobody else picked: it turns the machine everyone curses into
+//     the one colleague who actually reads the calendar.
 const LINE =
   "Our office printer only jams on urgent documents, which is how I know it reads my calendar better than my manager does.";
 
